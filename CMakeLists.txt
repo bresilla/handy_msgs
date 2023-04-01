@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(r4c_msgs)
+project(handy_msgs)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -27,7 +27,7 @@ find_package(geometry_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Nav.action"
   "srv/Reset.srv"
-  "msg/Distance.msg"
+  "msg/Float32Stamped.msg"
   DEPENDENCIES nav_msgs std_msgs geometry_msgs
   )
 

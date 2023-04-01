@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>r4c_msgs</name>
+  <name>handy_msgs</name>
   <version>0.9.4</version>
   <description>Interfaces for R4C</description>
   <maintainer email="vasilaros@lms.mech.upatras.gr">Panagiotis Vasilaros</maintainer>
