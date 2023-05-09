@@ -27,6 +27,8 @@ find_package(geometry_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Nav.action"
   "srv/Reset.srv"
+  "msg/Tag.msg"
+  "msg/Tags.msg"
   "msg/Float32Stamped.msg"
   DEPENDENCIES nav_msgs std_msgs geometry_msgs
   )
