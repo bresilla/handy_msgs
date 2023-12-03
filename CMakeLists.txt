@@ -33,6 +33,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Enu2Ecef.srv"
   "srv/Gps2Enu.srv"
   "srv/Enu2Gps.srv"
+  "srv/Threshold.srv"
   "msg/Float32Stamped.msg"
   DEPENDENCIES nav_msgs std_msgs geometry_msgs sensor_msgs
 )
